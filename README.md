@@ -2,11 +2,11 @@
 
 # Node.js API Project: Timestamp Microservice
 
-> User stories:
 
 ### Example usage:
 
-<b>https://nj-timestamp-microservice.herokuapp.com/December%2015,%202015 </b>
+<b>https://nj-timestamp-microservice.herokuapp.com/December%2015,%202015 </b>    
+
 <b>https://nj-timestamp-microservice.herokuapp.com/1450137600`</b>
 
 ### Example output:
