@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Node.js Timestamp Microsevice</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-+ENW/yibaokMnme+vBLnHMphUYxHs34h9lpdbSLuAwGkOKFRl4C34WkjazBtb7eT" crossorigin="anonymous">
+</head>
+<body>
+
+	<div class="container">
+	    <h1 class="header">
+	        Node.js API Project: Timestamp Microservice
+	    </h1>
+	    <br>
+	    <blockquote>
+	        User stories:
+	        <ul>1) I can pass a string as a parameter, and it will check to see whether that string 
+	        contains either a unix timestamp or a natural language date (example: January 1, 2016)</ul>
+	        <ul>2) If it does, it returns both the Unix timestamp and the natural language form of that date.</ul>
+	        <ul>3) If it does not contain a date or Unix timestamp, it returns null for those properties.</ul>
+	    </blockquote>
+	    <h3>Example usage:</h3>
+	    <code>https://nj-timestamp-microservice.herokuapp.com/December%2015,%202015</code><br>
+	    <code>https://nj-timestamp-microservice.herokuapp.com/1450137600</code>
+	    <h3>Example output:</h3>
+	    <code>
+	        {
+	          "unix": 1450137600,
+	          "natural": "December 15, 2015"
+	        }
+	    </code>
+	    <footer>
+		    <div class="row" text-align='center'>
+		    	created by <a href="http://naimjeem.jefcorp.com/">Naim Jeem</a>
+		    </div>
+	    </footer>
+	</div>
+
+</body>
+</html>
