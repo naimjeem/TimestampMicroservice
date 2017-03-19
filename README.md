@@ -1,4 +1,3 @@
-# TimestampMicroservice
 <div class="container">
 
 # Node.js API Project: Timestamp Microservice
@@ -7,8 +6,8 @@
 
 ### Example usage:
 
-`https://nj-timestamp-microservice.herokuapp.com/December%2015,%202015`  
-`https://nj-timestamp-microservice.herokuapp.com/1450137600`
+<b>https://nj-timestamp-microservice.herokuapp.com/December%2015,%202015 </b>
+<b>https://nj-timestamp-microservice.herokuapp.com/1450137600`</b>
 
 ### Example output:
 
